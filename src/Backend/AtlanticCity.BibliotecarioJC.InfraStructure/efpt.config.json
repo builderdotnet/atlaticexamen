@@ -1,0 +1,81 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "BibliotecarioContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Contexts",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "AtlanticCity.BibliotecarioJC.InfraStructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Categoria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estado]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estante]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Inventario]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Libro]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ListaNegra]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Prestamo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrestamoBitacora]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrestamoDetalle]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Usuario]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "l-pri09gto1041\\sqlexpress.BibliotecarioJuanCalla.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": true,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

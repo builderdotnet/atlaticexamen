@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AtlanticCity.BibliotecarioJC.Api.props" />
+</Project>

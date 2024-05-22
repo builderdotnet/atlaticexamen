@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: $scale;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--surface-ground);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.layout-wrapper {
+    min-height: 100vh;
+}
+
+.confirm-icon-error {
+    color: #ff5757;
+}
+.confirm-error {
+    background: rgba(255, 231, 230, 0.9) !important;
+    border: solid #ff5757 !important;
+    border-width: 0 0 0 6px !important;
+    color: #ff5757 !important;
+}
+
+
+.confirm-icon-info {
+    color: #3b82f6;
+}
+.confirm-info {
+    /*border-left-color: blue !important;
+    border-left-width: 9px !important;
+    border-left-style: solid !important;
+*/
+    background: rgba(219, 234, 254, 0.7) !important;
+    border: solid #3b82f6 !important;
+    border-width: 0 0 0 6px !important;
+    color: #3b82f6 !important
+}
+
+.confirm-icon-warn {
+    color: #cc8925;
+}
+.confirm-warn{
+background: rgba(255, 242, 226, 0.7) !important;
+    border: solid #cc8925 !important;
+    border-width: 0 0 0 6px !important;
+    color: #cc8925 !important;
+}
+
+.confirm-icon-success{
+    color: #1ea97c;
+}
+.confirm-success {
+    background: rgba(228, 248, 240, 0.7);
+    border: solid #1ea97c;
+    border-width: 0 0 0 6px;
+    color: #1ea97c;
+    /*
+    border-left-color: green !important;
+    border-left-width: 9px !important;
+    border-left-style: solid !important;
+    */
+}
