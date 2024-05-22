@@ -1,23 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MHvThJvX39A5jpVOO9DS9rJ6z/TA1kxvWLfCVf6Pg/Jru+e0DZvLfmmA+9af/pAx23fj1iG5cVNmwuc9KVe35A==",
+  "dgSpecHash": "2OGYNzSFzsqBkzec4Fp/hxdvkB9oEL1XWIsrKkYIE1VNB4uJhl1aabRVUz13sdjNUwVFfkhTrcS7U2PE6GcxyA==",
   "success": true,
-  "projectFilePath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.14\\microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.14\\microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\JCALLAB\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

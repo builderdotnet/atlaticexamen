@@ -8,7 +8,7 @@ import { Result } from '../models/result.model';
 @Injectable({
     providedIn: 'root',
 })
-export class PreOrdenService {
+export class PrestamoService {
     private url: string = environment.atlantic;
     private http = inject(HttpClient);
  

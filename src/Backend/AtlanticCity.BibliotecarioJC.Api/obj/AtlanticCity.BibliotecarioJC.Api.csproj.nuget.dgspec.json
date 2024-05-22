@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj": {}
+    "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj": {}
   },
   "projects": {
-    "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj": {
+    "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj",
+        "projectUniqueName": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj",
         "projectName": "AtlanticCity.BibliotecarioJC.Api",
-        "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj",
+        "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\AtlanticCity.BibliotecarioJC.Api.csproj",
         "packagesPath": "C:\\Users\\JCALLAB\\.nuget\\packages\\",
-        "outputPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\obj\\",
+        "outputPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -36,14 +36,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj": {
-                "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj"
+              "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj": {
+                "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj"
               },
-              "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
-                "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
+              "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
+                "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
               },
-              "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj": {
-                "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj"
+              "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj": {
+                "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj"
               }
             }
           }
@@ -57,51 +57,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj": {
+    "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
+        "projectUniqueName": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
         "projectName": "AtlanticCity.BibliotecarioJC.Application",
-        "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
+        "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\AtlanticCity.BibliotecarioJC.Application.csproj",
         "packagesPath": "C:\\Users\\JCALLAB\\.nuget\\packages\\",
-        "outputPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\obj\\",
+        "outputPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -126,8 +103,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
-                "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
+              "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
+                "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
               }
             }
           }
@@ -141,44 +118,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
+    "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj",
+        "projectUniqueName": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj",
         "projectName": "AtlanticCity.BibliotecarioJC.Domain",
-        "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj",
+        "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj",
         "packagesPath": "C:\\Users\\JCALLAB\\.nuget\\packages\\",
-        "outputPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\obj\\",
+        "outputPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -214,40 +175,28 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.14, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj": {
+    "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj",
+        "projectUniqueName": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj",
         "projectName": "AtlanticCity.BibliotecarioJC.InfraStructure",
-        "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj",
+        "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\AtlanticCity.BibliotecarioJC.InfraStructure.csproj",
         "packagesPath": "C:\\Users\\JCALLAB\\.nuget\\packages\\",
-        "outputPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\obj\\",
+        "outputPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.InfraStructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -272,8 +221,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
-                "projectPath": "D:\\AyniDev\\Examen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
+              "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj": {
+                "projectPath": "D:\\examenes\\atlaticexamen\\src\\Backend\\AtlanticCity.BibliotecarioJC.Domain\\AtlanticCity.BibliotecarioJC.Domain.csproj"
               }
             }
           }
@@ -287,29 +236,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.14, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
