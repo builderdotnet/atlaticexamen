@@ -16,6 +16,8 @@ import { InputTextModule } from 'primeng/inputtext';
 import { PrestamoDetalleRequest } from '../../models/prestamo.model';
 import { CardModule } from 'primeng/card';
 import { TableModule } from 'primeng/table';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import { ConfirmationService } from 'primeng/api/confirmationservice';
 
 @Component({
     selector: 'app-registrarprestamo',
@@ -32,7 +34,9 @@ import { TableModule } from 'primeng/table';
         InputTextModule,
         CardModule,
         TableModule,
+        ConfirmDialogModule,
     ],
+    providers: [ConfirmationService],
 })
 export default class RegistrarprestamoComponent implements OnInit {
     constructor() {}
@@ -45,6 +49,7 @@ export default class RegistrarprestamoComponent implements OnInit {
     estanteSelect: EstanteResponse;
     observacion: string;
     observacionDetalle: string;
+    confirmationService = inject(ConfirmationService);
 
     usuario: string;
     fechaPrestamo: Date = new Date();
@@ -58,17 +63,39 @@ export default class RegistrarprestamoComponent implements OnInit {
         });
     }
     agregar() {
-        let detalle: PrestamoDetalleRequest = {
-            cobroPrestamo: 0,
-            idEstado: 1,
-            idEstante: Number(this.estanteSelect.value),
-            idLibro: Number(this.libroSelect.value),
-            observacion: this.observacionDetalle,
-            estante: this.estanteSelect.text,
-            libro: this.libroSelect.text,
-        };
+        let idEstante: number = Number(this.estanteSelect.value);
+        let idLibro: number = Number(this.libroSelect.value);
+        this.libroService
+            .Disponibilidad({
+                idLibro: idLibro,
+                idEstante: idEstante,
+            })
+            .subscribe((next) => {
+                if (next.data.esDisponible) {
+                    let detalleExiste: PrestamoDetalleRequest =
+                        this.detallePrestamo.filter(
+                            (x) =>
+                                x.idEstante == idEstante && x.idLibro == idLibro
+                        )[0];
+                    if (!detalleExiste) {
+                        let detalle: PrestamoDetalleRequest = {
+                            cobroPrestamo: 0,
+                            idEstado: 1,
+                            idEstante: Number(this.estanteSelect.value),
+                            idLibro: Number(this.libroSelect.value),
+                            observacion: this.observacionDetalle,
+                            estante: this.estanteSelect.text,
+                            libro: this.libroSelect.text,
+                        };
 
-        this.detallePrestamo.push(detalle);
+                        this.detallePrestamo.push(detalle);
+                    }
+                } else {
+                    alert(
+                        `Libro (${this.libroSelect.text}) no se encuentra disponible en el estante (${this.estanteSelect.text}), stock actual: ${next.data.stockActual}`
+                    );
+                }
+            });
     }
     registrar() {
         let prestamo: PrestamoRequest = {
@@ -87,9 +114,19 @@ export default class RegistrarprestamoComponent implements OnInit {
         });
     }
     eliminar(detalle: PrestamoDetalleRequest) {
-        this.detallePrestamo = this.detallePrestamo.filter(
-            (x) =>
-                x.idLibro != detalle.idLibro && x.idEstante != detalle.idEstante
-        );
+        this.confirmationService.confirm({
+            message: '¿Esta seguro de eliminar libro?',
+            header: 'Eliminacion de Libro Detalle',
+            acceptLabel: 'Si',
+            icon: 'pi pi-info-circle',
+            accept: () => {
+                this.detallePrestamo = this.detallePrestamo.filter(
+                    (x) =>
+                        x.idLibro != detalle.idLibro &&
+                        x.idEstante != detalle.idEstante
+                );
+            },
+            reject: () => {},
+        });
     }
 }

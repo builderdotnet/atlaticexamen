@@ -1,5 +1,4 @@
 export interface EstanteResponse {
-
-    text: string 
-value:string 
+    text: string;
+    value: string;
 }
